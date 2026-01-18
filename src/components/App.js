@@ -13,11 +13,11 @@ const App = () => {
 
   }
   return (
-    <div>
+    <div className="parent" >
         <h1>Parent Component</h1>
         <ChildComponent1 selectedOPtion={selectedOPtion} handleOption={handleOption}/>
         <ChildComponent2 selectedOPtion={selectedOPtion} handleOption={handleOption}/>
-        <p>Selected Option : {selectedOPtion}</p>
+        <p>Selected Option: {selectedOPtion}</p>
     </div>
   )
 }
